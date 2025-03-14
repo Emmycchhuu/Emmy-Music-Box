@@ -1,0 +1,32 @@
+body {
+    background: url('https://cdn.pixabay.com/photo/2017/08/10/07/32/headphones-2618612_1280.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.search-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.results-container {
+    margin-top: 20px;
+}
+
+.result-item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 8px;
+    max-width: 600px;
+}
